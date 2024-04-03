@@ -5,60 +5,104 @@
   --third-color: #757575;
 
   --fourth-color: #ffffff;
+
+  --fifth-color: #000000;
 }
 
 body {
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.7;
-  }
-
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 1.2;
-  }
-
-  .roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    line-height: 1.4;
-  }
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(16 / 14);
 }
-*,
-*::before,
-*::after {
-box-sizing: border-box;
+.header-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
 }
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-margin: 0;
-padding: 0;
+.header-nav-link {
+  font-weight: 500;
+  line-height: calc(16 / 14);
 }
-
-ul,
-ol {
-margin: 0;
-padding: 0;
-list-style: none;
+.header-contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
 }
-
-img {
-display: inline-block;
-max-width: 100%;
-height: auto;
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(129 / 44);
 }
-
-a {
-text-decoration: none;
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+}
+.advantages-headline {
+  font-weight: 700;
+}
+.examples-headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+}
+.team-headline-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+}
+.team-headline-two {
+  font-weight: 500;
+  line-height: calc(19 / 14);
+}
+.team-text {
+  line-height: calc(19 / 16);
+}
+.footer-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+}
+.footer-item-text {
+  line-height: calc(21 / 14);
+}
+.header-contact-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+}
+.header-contact-item {
+  font-weight: 500;
+  line-height: calc(16 / 14);
+}
+.header-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+}
+.portfolio-filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+}
+.portfolio-headline {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+}
+.portfolio-text {
+  line-height: calc(30 / 14);
+}
+.footer-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+}
+.footer-item {
+  line-height: calc(21 / 14);
 }
